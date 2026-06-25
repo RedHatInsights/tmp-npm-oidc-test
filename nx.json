@@ -8,7 +8,6 @@
     }
   },
   "release": {
-    "projects": ["."],
     "git": {
       "commit": true,
       "tag": true

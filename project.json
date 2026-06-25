@@ -1,0 +1,12 @@
+{
+  "name": "npm-oidc-test",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": ".",
+  "projectType": "library",
+  "targets": {},
+  "release": {
+    "version": {
+      "generator": "@nx/js:release-version"
+    }
+  }
+}

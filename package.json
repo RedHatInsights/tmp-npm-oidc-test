@@ -1,6 +1,6 @@
 {
   "name": "@chmulder/npm-oidc-test",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "description": "Test package for OIDC npm publish",
   "main": "index.js",
   "scripts": {
