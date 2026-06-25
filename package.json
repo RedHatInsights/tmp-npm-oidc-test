@@ -17,6 +17,7 @@
   "author": "Red Hat",
   "license": "Apache-2.0",
   "devDependencies": {
-    "nx": "^20.3.2"
+    "nx": "^20.3.2",
+    "@nx/js": "^20.3.2"
   }
 }
