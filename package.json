@@ -1,0 +1,19 @@
+{
+  "name": "@redhat-cloud-services/npm-oidc-test",
+  "version": "0.0.1",
+  "description": "Test package for OIDC npm publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedHatInsights/tmp-npm-oidc-test.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "Red Hat",
+  "license": "Apache-2.0"
+}
