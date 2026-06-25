@@ -13,7 +13,7 @@ Minimal setup to isolate and debug npm publish with OIDC authentication:
 ## Setup
 
 1. Package created on npmjs.com by org owner
-2. Trusted publisher configured at npmjs.com/package/@redhat-cloud-services/npm-oidc-test/access:
+2. Trusted publisher configured at npmjs.com/package/@chmulder/npm-oidc-test/access:
    - Org: RedHatInsights
    - Repo: tmp-npm-oidc-test
    - Workflow: publish.yaml
