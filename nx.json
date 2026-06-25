@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "nx-release-publish": {
+      "options": {
+        "provenance": true
+      }
+    }
+  },
+  "release": {
+    "git": {
+      "commit": true,
+      "tag": true
+    },
+    "version": {
+      "conventionalCommits": true
+    },
+    "changelog": {
+      "workspaceChangelog": false,
+      "projectChangelogs": false
+    }
+  }
+}

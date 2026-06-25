@@ -23,7 +23,9 @@ jobs:
         run: |
           echo "npm version: $(npm --version)"
           echo "node version: $(node --version)"
-      - name: Publish to npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Release with Nx
         env:
           NPM_CONFIG_PROVENANCE: true
-        run: npm publish
+        run: npx nx release --yes
