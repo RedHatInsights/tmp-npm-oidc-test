@@ -1,1 +1,1 @@
-module.exports = { test: true };
+module.exports = { test: true, when: "now" };
